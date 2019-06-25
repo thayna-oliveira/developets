@@ -4,12 +4,19 @@ import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 import { PetCard } from './components/PetCard';
 import { pets } from './data/pets';
+import logo from './assets/img/logo.svg';
+
 
 class App extends Component {
   render() {
+
     const petCards = pets.map((pet, index) => PetCard(pet, index));
+    
     return (
       <div className="App">
+
+        <img src={logo} alt="Kiwi standing on oval" />
+
         <header className="App-header">
           <Header as="h1" icon textAlign="center" className="App-title">
             <Icon name="paw" />
@@ -17,6 +24,10 @@ class App extends Component {
               DeveloPets
             </Header.Content>
           </Header>
+
+
+
+
         </header>
         <div className="App-content">
           <Container>

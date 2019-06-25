@@ -95,5 +95,19 @@ export const pets = [
     "type": "dog",
     "description": "a grumpy old schnauzer that loves to play with her two buddies",
     "img": null
+  },
+  {
+    "name": "Jujuba",
+    "owner": "thayna-oliveira",
+    "type": "cat",
+    "description": "Uma gatinha muito bravinha, mas é o amorzinho da mamãe. Morde e arranha tudo que vê pela frente.",
+    "img": null
+  },
+  {
+    "name": "Pudim",
+    "owner": "thayna-oliveira",
+    "type": "cat",
+    "description": "Um siamês gordinho e carinhoso, ama receber um carinho. Come tudo que vê pela frente.",
+    "img": null
   }
 ];
