@@ -11,7 +11,7 @@ class App extends Component {
   render() {
 
     const petCards = pets.map((pet, index) => PetCard(pet, index));
-    
+
     return (
       <div className="App">
 
@@ -24,9 +24,6 @@ class App extends Component {
               DeveloPets
             </Header.Content>
           </Header>
-
-
-
 
         </header>
         <div className="App-content">
